@@ -14,7 +14,7 @@ load_dotenv()
 
 app = Flask(__name__)
 fake = Faker()
-alphanumeric_only = re.compile("[\W_]+")
+alphanumeric_only = re.compile(r"[\W_]+")
 phone_pattern = re.compile(r"^[\d\+\-\(\) ]+$")
 
 twilio_number = os.environ.get("TWILIO_CALLER_ID")
