@@ -1,6 +1,6 @@
-flask~=2.1.3
-twilio~=6.38.1
-faker~=4.0.3
-python-dotenv==0.13.0
-pytest==5.4.1
-werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+flask
+twilio
+faker
+python-dotenv
+pytest
+werkzeug
